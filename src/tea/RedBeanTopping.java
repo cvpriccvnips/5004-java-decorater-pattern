@@ -29,7 +29,7 @@ public class RedBeanTopping extends ToppingDecorator {
             price += 0.7;
         } else if (tea.getSize() == Size.LARGE) {
             price += 0.9;
-        } else if (tea.getSize() == Size.LARGE) {
+        } else if (tea.getSize() == Size.EXTRA_LARGE) {
             price += 1.1;
         }
         return price;
