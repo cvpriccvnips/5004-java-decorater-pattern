@@ -26,11 +26,11 @@ public class TapiocaTopping extends ToppingDecorator {
     public double price() {
         double price = tea.price();
         if (tea.getSize() == Size.REGULAR) {
-            price += 1;
+            price += 0.6;
         } else if (tea.getSize() == Size.LARGE) {
-            price += 2;
+            price += 1.1;
         } else if (tea.getSize() == Size.EXTRA_LARGE) {
-            price += 3;
+            price += 1.6;
         }
         return price;
     }
