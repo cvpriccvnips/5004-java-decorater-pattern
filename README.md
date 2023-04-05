@@ -1,6 +1,8 @@
 # 5004-decorater-pattern-group3
 
 Team Member: Judy Wang, Lu Yan, Jinda Zhang
+![image](https://user-images.githubusercontent.com/70824612/229972235-1889ad5f-99b9-48d9-a6a5-a342527675ef.png)
+
 
 ## Introduction
 
