@@ -6,5 +6,5 @@ package tea;
 public enum Size {
   REGULAR,
   LARGE,
-  EXTRALARGE;
+  EXTRA_LARGE;
 }
