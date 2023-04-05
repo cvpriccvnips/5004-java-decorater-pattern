@@ -12,5 +12,4 @@ public abstract class ToppingDecorator extends Tea {
   public Size getSize() {
     return tea.getSize();
   }
-
 }
