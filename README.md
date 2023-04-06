@@ -12,7 +12,7 @@ The Decorator Pattern is used when you want to add behavior to an individual obj
 
 ![image](https://user-images.githubusercontent.com/70824612/229972235-1889ad5f-99b9-48d9-a6a5-a342527675ef.png)
 
-## Application
+## Application (When to use it?)
 The Decorator Pattern is used when you want to add or remove functionality to an object without affecting other instances of the same object. It is useful in situations where it is impractical to subclass every possible combination of attributes for an object.
 
 A common example of the Decorator Pattern is in the creation of graphical user interfaces. Many graphical user interface frameworks use decorators to add functionality to basic widgets such as buttons and text boxes. By using decorators, the framework can dynamically add functionality to a widget at runtime.
@@ -76,7 +76,7 @@ getSize(): This method returns the current size of the tea.
 The class has an abstract method price(), which returns the price of the tea. This method is abstract because the price of the tea will depend on the specific type of tea that extends this class.
 
 
-## How to Run It
+## How to Run It?
 
 
 ## Reference
