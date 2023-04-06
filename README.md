@@ -66,7 +66,7 @@ public abstract class Tea {
   public abstract double price();
 }
 ```
-The class has three methods:
+Tea.java has three methods:
 getDescription(): This method returns a String value which is the description of the tea.
 setSize(): This method sets the size of the tea to the passed parameter.
 getSize(): This method returns the current size of the tea.
