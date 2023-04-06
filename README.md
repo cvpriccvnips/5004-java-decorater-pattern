@@ -19,8 +19,58 @@ A common example of the Decorator Pattern is in the creation of graphical user i
 
 Another common example of the Decorator Pattern is in the creation of coffee drinks. In this example, the base drink (e.g. espresso) is decorated with additional ingredients (e.g. milk, sugar, flavorings) to create a custom drink.
 
+## UML Class Diagram
 
-## Code description
+
+## Code Walkthrough
+
+In our real-world project Tea implementing decorater pattern, we start with declearing abstract class Tea.
+```
+package tea;
+
+/**
+ * Abstract class for Tea.
+ */
+public abstract class Tea {
+  Size size = Size.LARGE;
+  String description = "Unknown Tea";
+
+  /**
+   * Get menu description of the tea.
+   * @return a celsius temperature.
+   */
+  public String getDescription() {
+    return this.description;
+  }
+
+  /**
+   * Set the size of tea.
+   * @param size size of the tea.
+   */
+  public void setSize(Size size) {
+    this.size = size;
+  }
+
+  /**
+   * Get the size of tea.
+   * @return Size of tea.
+   */
+  public Size getSize() {
+    return this.size;
+  }
+
+  /**
+   * Calculate the price of tea.
+   * @return price of tea.
+   */
+  public abstract double price();
+}
+```
+The class has three methods:
+getDescription(): This method returns a String value which is the description of the tea.
+setSize(): This method sets the size of the tea to the passed parameter.
+getSize(): This method returns the current size of the tea.
+The class has an abstract method price(), which returns the price of the tea. This method is abstract because the price of the tea will depend on the specific type of tea that extends this class.
 
 
 ## Reference
