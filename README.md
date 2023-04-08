@@ -78,6 +78,12 @@ The class has an abstract method price(), which returns the price of the tea. Th
 
 ## How to Run It?
 
+In Intellij Idea, click run button in src/tea/Main.java.
+![Uploading image.png…]()
+
+Output:
+![image](https://user-images.githubusercontent.com/70824612/230707431-92d11fa0-34dd-4926-842d-4d0d6f0335d6.png)
+
 
 ## Reference
 - Head first design patterns : building extensible and maintainable object-oriented software
