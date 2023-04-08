@@ -21,6 +21,7 @@ Another common example of the Decorator Pattern is in the creation of coffee dri
 
 ## UML Class Diagram
 
+![image](https://user-images.githubusercontent.com/70824612/230707749-f8da5999-d98f-41ec-b231-d010e1ecfe71.png)
 
 ## Code Walkthrough
 
