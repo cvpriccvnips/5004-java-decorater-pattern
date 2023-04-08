@@ -1,4 +1,4 @@
-# 5004-decorater-pattern-group3
+# Decorater-pattern-group3
 
 Team Member: Judy Wang, Lu Yan, Jinda Zhang
 
