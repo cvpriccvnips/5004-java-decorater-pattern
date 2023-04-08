@@ -78,10 +78,13 @@ The class has an abstract method price(), which returns the price of the tea. Th
 
 ## How to Run It?
 
-In Intellij Idea, click run button in src/tea/Main.java.
-![Uploading image.png…]()
+In Intellij Idea, click run button in src/tea/Main.java
+
+![image](https://user-images.githubusercontent.com/70824612/230707585-8543551c-f2d3-4c33-bf75-f66e6af8b81b.png)
+
 
 Output:
+
 ![image](https://user-images.githubusercontent.com/70824612/230707431-92d11fa0-34dd-4926-842d-4d0d6f0335d6.png)
 
 
