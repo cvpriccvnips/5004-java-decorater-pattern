@@ -4,8 +4,8 @@ package tea;
  * Abstract class for Tea.
  */
 public abstract class Tea {
-  Size size = Size.LARGE;
-  String description = "Unknown Tea";
+  protected Size size = Size.LARGE;
+  protected String description = "Unknown Tea";
 
   /**
    * Get menu description of the tea.
