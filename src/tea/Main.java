@@ -2,10 +2,10 @@ package tea;
 
 public class Main {
   public static void main(String[] args) {
-    Tea greenTea = new GreenTea(Size.LARGE);
-    greenTea = new TapiocaTopping(greenTea);
+    Tea bubbleTea = new BubbleTea(Size.LARGE);
+    bubbleTea = new TapiocaTopping(bubbleTea);
 
-    System.out.println("You ordered: " + greenTea.getDescription());
-    System.out.println("Total price: $" + greenTea.price());
+    System.out.println("You ordered: " + bubbleTea.getDescription());
+    System.out.println("Total price: $" + bubbleTea.price());
   }
 }
