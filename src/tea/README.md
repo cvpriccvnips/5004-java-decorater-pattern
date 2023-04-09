@@ -41,3 +41,7 @@ the Decorator Pattern can be used to order a tea with different sizes and toppin
 How to use our tea ordering system
 .............................
 
+
+
+Resources: 
+- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Professional.
