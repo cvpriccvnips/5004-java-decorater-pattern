@@ -4,7 +4,7 @@ Team Member: Judy Wang, Lu Yan, Jinda Zhang
 
 ## Introduction
 
-The Decorator Pattern is a design pattern that allows behavior to be added to an object dynamically, without affecting the behavior or structure of other objects from the same class. In this pattern, we create a Decorator object that wraps around an existing object and adds additional behavior to it. The key benefit of the Decorator Pattern is that it allows you to add functionality to an object at runtime, without the need to modify the existing code. 
+The Decorator Pattern is a structural design pattern that allows objects to be dynamically extended with new functionality at runtime without affecting the behavior of existing objects. It is is sometimes referred to as the "Wrapper" pattern, as it involves wrapping an object with one or more decorators that provide additional functionality. To implement the pattern, a decorator must implement the same interface as the wrapped object, which allows the client to treat them as identical objects. This approach enables the addition of new features and behaviors to an object without modifying its existing code, resulting in a flexible, modular, and easily maintainable codebase.
 
 This follows the principle that code should be open for extension but closed for modification. Additionally, the Decorator Pattern follows the Single Responsibility Principle, as the decorator adds its own behavior before and/or after delegating to the object it decorates to do the rest of the job. 
 
@@ -80,7 +80,11 @@ The class has an abstract method price(), which returns the price of the tea. Th
 
 ## How to Run It?
 
-In Intellij Idea, click run button in src/tea/Main.java
+To get started with this project, you will need to have Java installed on your system. You can clone this repository and open the project in your favorite Java IDE.
+
+Once you have the project open, you can run the Main driver to see an example of how the Decorator Pattern can be used to order a tea with different sizes and toppings.
+
+For example, in Intellij Idea, click run button in src/tea/Main.java
 
 ![image](https://user-images.githubusercontent.com/70824612/230707585-8543551c-f2d3-4c33-bf75-f66e6af8b81b.png)
 
@@ -93,4 +97,5 @@ Output:
 ## Reference
 - Head first design patterns : building extensible and maintainable object-oriented software
 Freeman, Eric, 1965- author.; Robson, Elisabeth, author. Sebastopol, California : O'Reilly 2021
+- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Professional.
 - https://en.wikipedia.org/wiki/Decorator_pattern
