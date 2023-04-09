@@ -95,7 +95,10 @@ Output:
 
 
 ## Reference
+
+- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Professional.
+
 - Head first design patterns : building extensible and maintainable object-oriented software
 Freeman, Eric, 1965- author.; Robson, Elisabeth, author. Sebastopol, California : O'Reilly 2021
-- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Professional.
+
 - https://en.wikipedia.org/wiki/Decorator_pattern
