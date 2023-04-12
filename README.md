@@ -26,12 +26,7 @@ Another common example of the Decorator Pattern is in the creation of coffee dri
 ## Code Walkthrough
 
 In our real-world project Tea implementing decorater pattern, we start with declearing abstract class Tea.
-```
-package tea;
-
-/**
- * Abstract class for Tea.
- */
+```java
 public abstract class Tea {
   Size size = Size.LARGE;
   String description = "Unknown Tea";
@@ -76,6 +71,74 @@ setSize(): This method sets the size of the tea to the passed parameter.
 getSize(): This method returns the current size of the tea.
 
 The class has an abstract method price(), which returns the price of the tea. This method is abstract because the price of the tea will depend on the specific type of tea that extends this class.
+
+In Size.java:
+```java
+public enum Size {
+  REGULAR,
+  LARGE,
+  EXTRA_LARGE;
+}
+```
+This is an enumeration class called Size that defines three constant values: REGULAR, LARGE, and EXTRA_LARGE. These values represent the different sizes that a tea can have.
+
+In an example of concrete class GreenTea.java, 
+```java
+public class GreenTea extends Tea {
+    public GreenTea(Size size) {
+        description = "Hello you ordered our brand new green tea";
+        size = size; 
+    }
+
+    public double price() {
+        return 4.5;
+    }
+}
+The class has a constructor that takes the size parameter and sets the description property to a string that indicates the type of tea being ordered, and also sets the size property of the tea.
+
+```
+
+In ToppingDecorator.java:
+```java
+public abstract class ToppingDecorator extends Tea {
+  public Tea tea;
+  public abstract String getDescription();
+
+  public Size getSize() {
+    return tea.getSize();
+  }
+}
+```
+
+The ToppingDecorator class has two variables: a Tea object and an abstract method called getDescription(). The Tea object is used to keep track of the tea that is being decorated. The getDescription() method will be implemented by any class that extends ToppingDecorator, and it will be used to provide a description of the topping. This class has a getSize() method that returns the size of the tea being decorated. This method is important because the cost of the topping will be calculated based on the size of the tea.
+
+In an example of concrete class CoconutTopping.java,
+```java
+public class CoconutTopping extends ToppingDecorator {
+  public CoconutTopping(Tea tea) {
+    this.tea = tea;
+  }
+
+  public String getDescription() {
+    return tea.getDescription() + ", you added fresh Coconut";
+  }
+
+  @Override
+  public double price() {
+    double price = tea.price();
+    if (tea.getSize() == Size.REGULAR) {
+      price += 1.0;
+    } else if (tea.getSize() == Size.LARGE) {
+      price += 1.5;
+    } else if (tea.getSize() == Size.EXTRA_LARGE) {
+      price += 2.0;
+    }
+    return price;
+  }
+}
+```
+The class has a constructor that takes a Tea object and assigns it to the tea instance variable. It also has an implementation of the getDescription() method, which returns the description of the tea object passed to it, concatenated with the string ", you added fresh Coconut" to indicate the addition of coconut topping. It overrides the price() method of the Tea abstract class, and calculates the price of the tea by calling the price() method of the tea object passed to it and then adding an additional cost for the coconut topping based on the size of the tea. If the size is REGULAR, the price is increased by 1.0, if it is LARGE, it is increased by 1.5, and if it is EXTRA_LARGE, it is increased by 2.0.
+
 
 
 ## How to Run It?
