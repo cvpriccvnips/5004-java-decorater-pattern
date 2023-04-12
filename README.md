@@ -143,7 +143,7 @@ The class has a constructor that takes a Tea object and assigns it to the tea in
 
 ## How to Run It?
 
-To get started with this project, you will need to have Java installed on your system. You can clone this repository and open the project in your favorite Java IDE.
+To get started with this project, you will need to have Java 11 installed on your system. You can clone this repository and open the project in your favorite Java IDE.
 
 Once you have the project open, you can run the Main driver to see an example of how the Decorator Pattern can be used to order a tea with different sizes and toppings.
 
