@@ -164,4 +164,3 @@ Output:
   Freeman, Eric, 1965- author.; Robson, Elisabeth, author. Sebastopol, California : O'Reilly 2021
 
 - https://en.wikipedia.org/wiki/Decorator_pattern
-``
