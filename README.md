@@ -94,9 +94,8 @@ public class GreenTea extends Tea {
         return 4.5;
     }
 }
-The class has a constructor that takes the size parameter and sets the description property to a string that indicates the type of tea being ordered, and also sets the size property of the tea.
-
 ```
+The class has a constructor that takes the size parameter and sets the description property to a string that indicates the type of tea being ordered, and also sets the size property of the tea.
 
 In ToppingDecorator.java:
 ```java
@@ -165,3 +164,4 @@ Output:
   Freeman, Eric, 1965- author.; Robson, Elisabeth, author. Sebastopol, California : O'Reilly 2021
 
 - https://en.wikipedia.org/wiki/Decorator_pattern
+``
