@@ -14,6 +14,10 @@ public class BubbleTea extends Tea {
         size = size; 
     }
 
+    /**
+     * Get the price of tea.
+     */
+    @Override
     public double price() {
         return 5.5;
     }
