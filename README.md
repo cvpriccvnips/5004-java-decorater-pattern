@@ -170,4 +170,6 @@ Output:
 - Head first design patterns : building extensible and maintainable object-oriented software
   Freeman, Eric, 1965- author.; Robson, Elisabeth, author. Sebastopol, California : O'Reilly 2021
 
-- https://en.wikipedia.org/wiki/Decorator_pattern
+- Decorator. Refactoring.Guru. (n.d.). Retrieved April 17, 2023, from https://refactoring.guru/design-patterns/decorator 
+
+- Wikimedia Foundation. (2023, April 17). Decorator pattern. Wikipedia. Retrieved April 17, 2023, from https://en.wikipedia.org/wiki/Decorator_pattern 
