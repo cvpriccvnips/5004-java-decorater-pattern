@@ -13,17 +13,17 @@ The Decorator Pattern is used when you want to add behavior to an individual obj
 ![image](https://user-images.githubusercontent.com/70824612/229972235-1889ad5f-99b9-48d9-a6a5-a342527675ef.png)
 
 ## Application (When to use it?)
-The Decorator Pattern is commonly used in the following scenarios:
+The Decorator Pattern is a powerful design pattern that can be used in various scenarios. Some of the common use cases of the Decorator Pattern are:
 
-- When you want to add or remove functionality to an object without affecting other instances of the same object, especially when it's impractical to create a subclass for every possible combination of attributes.
+- Dynamic behavior modification: When you want to add or remove functionality to an object without affecting other instances of the same object, especially when it's impractical to create a subclass for every possible combination of attributes. For instance, in game development, the Decorator Pattern can be used to modify the behavior of game objects. For example, you could use a decorator to add a power-up effect to a game object.
 
-- When you can't extend an object's behavior using inheritance, such as when the object is final and can't be subclassed. In this case, you can wrap the object with a decorator to add functionality.
+- Behavior extension without inheritance: When you can't extend an object's behavior using inheritance, such as when the object is final and can't be subclassed. In this case, you can wrap the object with a decorator to add functionality. For example, consider a car rental application that allows users to rent cars. The application may have a Car class that represents the basic properties of a car, such as make, model, and year. However, if the user wants to rent a car with additional features, such as a GPS system or a sunroof, you can use the Decorator Pattern to add these features to the Car object without modifying its underlying implementation.
 
-One popular use of the Decorator Pattern is in graphical user interface frameworks, where decorators are used to add functionality to basic widgets like buttons and text boxes at runtime.
+- Customizable graphical user interfaces: One popular use of the Decorator Pattern is in graphical user interface (GUI) frameworks, where decorators are used to add functionality to basic widgets like buttons and text boxes at runtime. For instance, consider a GUI framework that has a Button class representing a basic button widget. To create a custom button with a specific style, you can use a decorator to add the desired style to the Button object.
 
-Another common use of the Decorator Pattern is in coffee shops, where customers can customize their drinks by adding extra ingredients like milk, sugar, and flavorings to a base drink like espresso.
+- Customizable food and beverage orders: Another common use of the Decorator Pattern is in food and beverage industries, where customers can customize their orders by adding extra ingredients to a base food or beverage item. For example, consider a pizza delivery application that allows users to customize their pizzas by adding toppings. Instead of creating separate classes for each pizza with different toppings, you can use the Decorator Pattern to add toppings dynamically to a basic pizza object.
 
-By using the Decorator Pattern, you can add functionality to objects dynamically and in a flexible way, without having to modify their underlying implementation or create complex inheritance hierarchies.
+By using the Decorator Pattern, you can add functionality to objects dynamically and in a flexible way, without having to modify their underlying implementation or create complex inheritance hierarchies. The pattern also promotes code reusability and maintainability by separating the object's core functionality from its optional features.
 
 ## UML Class Diagram
 
@@ -173,3 +173,5 @@ Output:
 - Decorator. Refactoring.Guru. (n.d.). Retrieved April 17, 2023, from https://refactoring.guru/design-patterns/decorator 
 
 - Wikimedia Foundation. (2023, April 17). Decorator pattern. Wikipedia. Retrieved April 17, 2023, from https://en.wikipedia.org/wiki/Decorator_pattern 
+
+- ChatGPT, personal communication, April 14th, 2023
