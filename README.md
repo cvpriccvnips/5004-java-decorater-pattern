@@ -13,11 +13,17 @@ The Decorator Pattern is used when you want to add behavior to an individual obj
 ![image](https://user-images.githubusercontent.com/70824612/229972235-1889ad5f-99b9-48d9-a6a5-a342527675ef.png)
 
 ## Application (When to use it?)
-The Decorator Pattern is used when you want to add or remove functionality to an object without affecting other instances of the same object. It is useful in situations where it is impractical to subclass every possible combination of attributes for an object.
+The Decorator Pattern is commonly used in the following scenarios:
 
-A common example of the Decorator Pattern is in the creation of graphical user interfaces. Many graphical user interface frameworks use decorators to add functionality to basic widgets such as buttons and text boxes. By using decorators, the framework can dynamically add functionality to a widget at runtime.
+- When you want to add or remove functionality to an object without affecting other instances of the same object, especially when it's impractical to create a subclass for every possible combination of attributes.
 
-Another common example of the Decorator Pattern is in the creation of coffee drinks. In this example, the base drink (e.g. espresso) is decorated with additional ingredients (e.g. milk, sugar, flavorings) to create a custom drink.
+- When you can't extend an object's behavior using inheritance, such as when the object is final and can't be subclassed. In this case, you can wrap the object with a decorator to add functionality.
+
+One popular use of the Decorator Pattern is in graphical user interface frameworks, where decorators are used to add functionality to basic widgets like buttons and text boxes at runtime.
+
+Another common use of the Decorator Pattern is in coffee shops, where customers can customize their drinks by adding extra ingredients like milk, sugar, and flavorings to a base drink like espresso.
+
+By using the Decorator Pattern, you can add functionality to objects dynamically and in a flexible way, without having to modify their underlying implementation or create complex inheritance hierarchies.
 
 ## UML Class Diagram
 
