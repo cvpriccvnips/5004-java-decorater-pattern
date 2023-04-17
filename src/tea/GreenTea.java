@@ -13,7 +13,11 @@ public class GreenTea extends Tea {
         description = "Hello you ordered our brand new green tea";
         size = size; 
     }
-
+    
+    /**
+     * Get the price of tea.
+     */
+    @Override
     public double price() {
         return 4.5;
     }
