@@ -10,8 +10,8 @@ public class BlackTea extends Tea {
      * @param size the black tea.
      */
     public BlackTea(Size size) {
-        description = "Hola you ordered a black tea";
-        size = size; 
+        this.description = "Hola you ordered a black tea";
+        this.size = size; 
     }
     
     /**
